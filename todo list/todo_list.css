@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 70vw;
+    margin: 20px auto;
+    border: 1px solid black;
+    /* height: 80vh; */
+    text-align: center;
+    background-color: rgb(226, 227, 227);
+}
+
+.todo{
+    text-align: center;
+    width: 100%;
+    margin:20px auto;
+}
+
+.input{
+    width: 80%;
+    margin: auto 9%;
+    font-size: 1.2rem;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.button{
+    width: 12vw;
+    height: 4vh;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+div span{
+    cursor: pointer;
+}
+
+.item li{
+    display: inline;
+}
+
+.checkbox{
+    margin: auto 5px;
+    text-decoration: line-through;
+}
+
+.item-list{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6%;
+    background-color: rgb(184, 203, 219);
+}

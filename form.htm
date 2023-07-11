@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Website</title>
+    <style>
+      body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      #form1{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <form id="form1">
+      <h1>My Bio Data</h1>
+
+      <fieldset>
+      
+        <legend>Personal Information</legend>
+
+        <label for="FirstName">FirstName:</label>
+        <input type="text" placeholder=" FirstName" id="FirstName">
+
+        <label for="LastName">LastName:</label>
+        <input type="text" placeholder=" LastName" id="LastName">
+        
+        <br><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male">
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female">
+
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other">
+
+        <br><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="@gmail.com" id="email">
+
+        <br><br>
+
+        <label for="Phone">Phone:</label>
+        <select style="width: 50px; height: 20.5px;">
+          <option></option>
+          <option>+91</option>
+          <option>+92</option>
+          <option>+93</option>
+          <option>+230</option>
+          <option>+95</option>
+          <option>+212</option>
+          <option>+880</option>
+          <option>+1</option>
+          <option>+86</option>
+        </select>
+        <input type="number" placeholder="">
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Education</legend>
+
+        <label for="name">School Name:</label>
+        <input type="text" id="name" placeholder="Enter School Name">
+
+        <br><br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" placeholder="Enter Your Class">
+
+        <br><br>
+
+        <label for="stream">Stream:</label>
+        <select style="width: 125px; height: 20.5px;">
+          <option></option>
+          <option>NA</option>
+          <option>Science(PCM)</option>
+          <option>Science(PCB)</option>
+          <option>Arts</option>
+          <option>Commerce</option>
+          <option>Arts(Math)</option>
+          <option>Commerce(Math)</option>
+          <option>Science(hon.)</option>
+        </select>
+
+        <br><br>
+
+        <label for="marksheet">Marksheet:</label>
+        <input type="file" id="marksheet">
+
+        <!-- <br><br> -->
+
+      </fieldset>
+      
+      <br>
+
+      <button style="margin-left: 2px; width: 80px;">Submit</button>
+      <button style="margin-left: 5px; width: 80px;">New</button>
+      
+    </form>
+    
+  </body>
+</html>

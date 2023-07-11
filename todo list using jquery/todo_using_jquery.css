@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    width: 70vw;
+    height: 94vh;
+    margin: 20px auto;
+    border: 1px solid black;
+    /* height: 80vh; */
+    text-align: center;
+    background-color: rgb(159, 243, 138);
+}
+
+.todo{background-color: rgb(159, 243, 138);
+    /* color: aliceblue; */
+    text-align: center;
+    width: 100%;
+    margin:20px auto;
+}
+
+.input{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 20px 9%;
+    font-size: 1.2rem;
+}
+.item{
+    /* overflow: scroll; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.button{
+    margin-top: 200px;
+    background-color: aliceblue;
+    width: 12vw;
+    height: 4vh;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+div span{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.item li{
+    background-color: aliceblue;
+    display: inline;
+}
+
+.checkbox{
+    background-color: aliceblue;
+    margin: auto 5px;
+    text-decoration: line-through;
+}
+.section-1, .section-2{
+    background-color: aliceblue;
+}
+
+.item-list{
+    border-bottom: 1px solid black;
+    height: 59vh;
+    overflow: scroll;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6%;
+    background-color: aliceblue;
+}
+.btninp{
+    width: 70%;
+    height: 20%;
+    position: fixed;
+    left: 15%;
+    bottom: 6%;
+    /* right: 10px; */
+    background-color: rgb(159, 243, 138);
+    /* margin-top: 400px; */
+    /* margin-bottom: 0px 0px; */
+    margin: 0px;
+    padding: 0%;
+}
+
+.vertical{
+    color: aliceblue;
+    font-size: 1.9rem;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.vertical-text {
+    color: aliceblue;
+    font-size: 2rem;
+    word-break: break-word;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate3d(-50%, -50%, 0);
+ }

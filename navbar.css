@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+}
+
+.div1 {
+    display: flex;
+    padding: 6px 170px;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    color: black;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.medium {
+    width: 5px;
+    margin: 21px;
+    font-size: 33px;
+    margin-left: 2px;
+}
+
+.div2 {
+    display: flex;
+    font-size: 10px;
+}
+
+.div3 {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    color: black;
+}
+
+.div3 a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.div3 a:last-child {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 19px;
+}

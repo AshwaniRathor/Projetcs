@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "sidthesloth.html5-boilerplate",
+        "ecmel.vscode-html-css",
+        "formulahendry.auto-close-tag",
+        "analytic-signal.preview-html",
+        "george-alisson.html-preview-vscode",
+        "geyao.html-snippets",
+        "bierner.lit-html",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "esbenp.prettier-vscode"
+    ]
+}

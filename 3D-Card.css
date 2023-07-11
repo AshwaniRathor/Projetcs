@@ -1,0 +1,42 @@
+.container{
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    transition-duration: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: -10px 8px 8px 1px rgb(206, 140, 69);
+    border-radius: 12px;
+    /* box-shadow: 20px; */
+}
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+}
+.sec-A{
+    position: absolute;
+    backface-visibility: hidden;
+    /* border-radius: 12px; */
+    /* box-shadow: 20px; */
+    /* background-color: goldenrod; */
+}
+.sec-B{
+    border: solid 1px;
+    height: 200px;
+    width: 150px;
+    font-size: 18px;
+    font-family: cursive;
+    transform: rotateY(180deg);
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    background-color:rgb(211, 139, 6);
+}
+.container:hover{
+    transform: rotateY(180deg);
+}
+body{
+    perspective: 800px;
+}
